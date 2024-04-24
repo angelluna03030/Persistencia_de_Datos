@@ -1,0 +1,9 @@
+const path = require('path');
+//todo-> me va a crear automaticamnte estas carpetas con la inforacion 
+module.exports = {
+  "config": path.resolve('./config', 'config.json'),
+  "models-path": path.resolve('./dal/models'),
+  "seeders-path": path.resolve('./dal/seeders'),
+  "migrations-path": path.resolve('./dal/migrations')
+};
+
